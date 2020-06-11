@@ -1,16 +1,13 @@
 {
   "projects": [
     {
-      "name": "360° Camera",
-      "link_id": "dsdsdsds",
+      "name": "Test proj",
+      "link_id": "test poj",
       "date": "May 2015",
-      "short": "Worked at Tesseract, an MIT Media Lab spinoff where I co-developed an Android application to capture and view 360 degree image+video with the hardware built there.",
+      "short": "this is the project short description",
       "status": "complete",
-      "description": "this is the new description",
+      "description": "Test description",
       "weight": 4327,
-      "videos": [
-        "<iframe width=\"1351\" height=\"533\" src=\"https://www.youtube.com/embed/OmDS-FdotNU\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
-      ],
 	"github":"",
       "photos": [
         "/static/experiences/tesseract/img-1.jpg"
@@ -18,15 +15,15 @@
     },
     {
       "name": "Online Portfolio",
-      "link_id": "dsdsfsdfds",
+      "link_id": "online_portfolio",
       "date": "May 2020 ",
       "short": "A small step to digitize the journey of work and life",
       "status": "complete",
-      "description": "A digitized version of my experience and journey \n .The complete project is made using html/css and python Flask framework.\n.Have used a lot of Jinja2 template for reformatting and much more.",
+      "description": "A digitized version of my experience and journey \n .The complete project is made using html/css and python Flask framework.\n.A lot of Jinja2 templating is used for the data formatting and representation to the rendered html files.The html/css were not build form scratch ,a download template was used for the same.Find the project in github (link above)",
       "weight": 4327,
-	"github":"githu/dsd",
-      "photddos": [
-        "/static/experiences/tesseract/img-1.jpg"
+	"github":"https://github.com/hazra1991/portfolio",
+      "photos": [
+        "/home/abhishek/abhishek_files/project/portfolio/static/projects/portfolio/homepage.jpg"
       ]
     }
   ]

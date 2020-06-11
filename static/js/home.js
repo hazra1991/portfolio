@@ -3,7 +3,7 @@ $(function() {
     strings: [
       "systemclt status Abhishek<br/>" + 
       "><span class='caret'>$</span> skills: networking [mpls,TCP/IP,BGP,routing protocols,STP,Vlans]<br/> ^100" +
-      "><span class='caret'>$</span> -----[+]netw <a href='http://www.google.com/'>Google Munich</a><br/> ^100" +
+      "><span class='caret'>$</span> -----[+]netw <a href='http://www.googh</a><br/> ^100" +
       "><span class='caret'>$</span> hobbies: badminton,singing <br/>" +
       ],
     showCursor: true,
