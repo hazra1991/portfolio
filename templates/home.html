@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="wrapper fixed-wrapper">
+        <section id="terminal">
+            <div id="terminal-container">
+                <div class="terminal">
+                    <div class="window-title">
+                        <div class="win-buttons">
+<!--                            <a id="close" class="button" href="#"></a>-->
+<!--                            <a id="min" class="button" href="#"></a>-->
+<!--                            <a id="max" class="button" href="#"></a>-->
+                        </div>
+                        <span class="title">sh</span>
+                    </div>
+                    <div class="message">
+                        <span class='prompt'><span class='user'>server</span><span class="at">@</span><span
+                                class="path">/home/abhishek/</span>><span class="caret">$</span></span>
+                        <span class="typed"></span>
+                        <form>><span class="caret">$</span>&nbsp;<input type="text" name="response"/></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="wrapper scroll-wrapper">
+        <div class="top-text">
+            <p class="text-title desktop-view">Abhishek</p>
+            <p class="text-title desktop-view">Hazra</p>
+            <p class="text-title mobile-view">Abhishek Hazra</p>
+            <div class="social-icons">
+                <a target="_blank" href="">
+                    <img class="title-logo" src="static/images/github.svg">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/hazra_007/">
+                    <img class="title-logo" src="static/images/insta.svg">
+                </a>
+            </div>
+        </div>
+        <div class="middle-text">
+            <p class="text-content">I am a maker at heart; from developing challenging large-scale software to small
+                weekend hacks and proof of concept ideas to tinkering around with my Lego Mindstorms sets - I love to
+                build.</p>
+            <p class="text-content">
+                I work at Google Munich in the Android Platforms and Ecosystems team. I have a deep understanding of
+                the Android graphics and camera stack. I have worked on hard problems such as real time stabilization on
+                Android, and have created a graphics library for custom rendering to multiple surfaces, applying
+                filters, and streaming.</p>
+
+            <p class="text-content">I studied computer science at <a href="http://www.daiict.ac.in/daiict/index.html">DA-IICT</a>.
+            </p>
+
+
+            <p class="text-content">Let's get in touch!</p>
+
+            <p class="text-content">Rish Bhardwaj</p>
+
+            <p class="text-content"><a href="timeline">For more about me, my timeline, read on here.</a></p>
+
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,36 @@
+<div class="col s12 m4 l4">
+    <div class="card hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+            {% if 'photos' in project %}
+            <img class="card-image activator" src={{project['photos'][0]}}/>
+            {% else %}
+            <img class="card-image activator" src="/static/images/projectx.png/">
+            {% endif %}
+        </div>
+        <div class="card-content activator">
+            <div>
+            <span id="title" class="card-title activator grey-text text-darken-4" title="{{project['name']}}">
+              {{project['name']}}
+            </span>
+                <i class="material-icons right activator">more_vert</i>
+            </div>
+            <div>
+                {% if "link_id" in project and project["link_id"] %}
+                <span><a href="/projects/?value={{project['link_id']}}">Read More</a></span>
+                {% endif %}
+                {% if 'github' in project and project["github"]%}
+                <span><a class="github" href={{project['github']}}> | Github</a></span>
+                {% endif %}
+            </div>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">{{project['name']}}<i
+                    class="material-icons right">close</i></span>
+            <div><span class="status">{{project['date']}}</span></div>
+            <p>{{project['short']}}</p>
+            {% if "link_id" in project and project["link_id"] %}
+            <span><a href="/projects/?value={{project['link_id']}}">Read More</a></span>
+            {% endif %}
+        </div>
+    </div>
+</div>
