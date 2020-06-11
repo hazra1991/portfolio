@@ -1,4 +1,4 @@
-from flask import render_template,Flask,request
+from flask import render_template,Flask,request, send_from_directory,send_file
 import json,os,logging
 
 logging.basicConfig(filename="./app_logs/app.logs", filemode="a+", level=logging.ERROR)
@@ -23,7 +23,6 @@ def projects():
         data = load_json_data("projects.json")["projects"]
 
         if request.args:
-            # logging.error(request.args["value"],data[0]["link_id"])
             project_data = next((x for x in data if "link_id" in x and x["link_id"] == request.args["value"]),None)
             if project_data is not None:
                 return render_template("project.html", project=project_data)
@@ -32,9 +31,10 @@ def projects():
         return render_template("projects.html", no_data="No data available")
 
 
-@app.route("/Download_cv/")
+@app.route("/get-cv/")
 def download_cv():
-    return "Page under construction"
+    return send_file(os.path.dirname(os.path.abspath(__file__))
+                     +"/static/Resume/Abhishek_hazra_CV_new.doc",attachment_filename="Abhishek_cv.doc")
 
 @app.errorhandler(404)
 def page_not_found(e):

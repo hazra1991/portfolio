@@ -21,44 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4473f113-fd3e-4775-95e7-911bc8c3cefd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_logs/app.logs" beforeDir="false" afterPath="$PROJECT_DIR$/app_logs/app.logs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json_data_file/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/json_data_file/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/android-nanodegree/android-nanodegree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/android-nanodegree/android-nanodegree.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/experiences.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/google-munich/google-munich.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/google-munich/img-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/graviky-labs/graviky-labs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/graviky-labs/img-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/graviky-labs/img-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/hillhacks-16/hillhacks-16-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/hillhacks-16/hillhacks-16-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/hillhacks-16/hillhacks-16-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/hillhacks-16/hillhacks-16-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/hillhacks-16/hillhacks-16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/kumbhathon/kumbhathon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/kumbhathon/kumbhathon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/rural-intern/img-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/rural-intern/img-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/rural-intern/rural-intern.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/tesseract/img-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/tesseract/tesseract.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/tonbo-imaging/img-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/tonbo-imaging/img-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/tonbo-imaging/img-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/tonbo-imaging/img-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/tonbo-imaging/img-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/tonbo-imaging/img-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/tonbo-imaging/tonbo-imaging.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/travel-18/img-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/travel-18/img-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/travel-18/img-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/travel-18/img-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/travel-18/img-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/travel-18/img-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/experiences/travel-18/travel-18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/me_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/temporary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json_data_file/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/json_data_file/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

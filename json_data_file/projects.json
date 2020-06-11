@@ -1,30 +1,25 @@
 {
   "projects": [
     {
-      "name": "Test proj",
-      "link_id": "test poj",
-      "date": "May 2015",
-      "short": "this is the project short description",
-      "status": "complete",
-      "description": "Test description",
-      "weight": 4327,
-	"github":"",
-      "photos": [
-        "/static/experiences/tesseract/img-1.jpg"
-      ]
-    },
-    {
       "name": "Online Portfolio",
       "link_id": "online_portfolio",
       "date": "May 2020 ",
       "short": "A small step to digitize the journey of work and life",
       "status": "complete",
-      "description": "A digitized version of my experience and journey \n .The complete project is made using html/css and python Flask framework.\n.A lot of Jinja2 templating is used for the data formatting and representation to the rendered html files.The html/css were not build form scratch ,a download template was used for the same.Find the project in github (link above)",
+      "description":"A digitized version of my experience and journey.The complete project is made using html/css and python Flask framework.\n.A lot of Jinja2 templating is used for the data formatting and representation to the rendered html files.The html/css downloaded and modified as per the requirement,but the flask backend was build from scratch.Supporting modules such as os,json were used and rendering is done on Flask.Feel free to visit the Github link to download the project",
       "weight": 4327,
-	"github":"https://github.com/hazra1991/portfolio",
+	  "github":"https://github.com/hazra1991/portfolio",
       "photos": [
         "/home/abhishek/abhishek_files/project/portfolio/static/projects/portfolio/homepage.jpg"
       ]
+    },
+    {
+      "name": "SCP/SNMP Miro-service  ",
+      "link_id": "SNMP/SCP_collector",
+      "date": "Dec 2019 ",
+      "short": "A small micro service providing validating/scp/backing-up/re-formatting the raw snmp received from main collector program",
+      "github":"https://github.com/hazra1991/portfolio",
+      "description":"A small micro service providing validating/scp/backing-up/re-formatting the raw snmp data received from main collector program. Mainly all the functionality including transfer ,file locking formatting of data is all achieved by pythons in built library and the pandas.Please visit the github link for the source code (NOTE:THIS PROJECT WAS DISCONTINUED HENCE NO FURTHER UPDATE ON TO THE REPOSITORY). No vendor proprietary library were used in code."
     }
   ]
     
