@@ -1,12 +1,12 @@
 {
   "projects": [
     {
-      "name": "Online Portfolio",
+      "name": "Webify",
       "link_id": "online_portfolio",
       "date": "May 2020 ",
-      "short": "A small step to digitize the journey of work and life",
+      "short": "A small step to webify the journey of work and life",
       "status": "complete",
-      "description":"A digitized version of my experience and journey.The complete project is made using html/css and python Flask framework.\n.A lot of Jinja2 templating is used for the data formatting and representation to the rendered html files.The html/css downloaded and modified as per the requirement,but the flask backend was build from scratch.Supporting modules such as os,json were used and rendering is done on Flask.Feel free to visit the Github link to download the project",
+      "description":"A digitized version of my experience and journey.The backend end is powered by python Flask framework.A lot of Jinja2 templating is used for the data formatting and representation to the rendered html files.The html/css ,front end pages were not builed from scratch.Just modified as per the templating engine of jinja2(the template with all the necessary html/css and js were downloaded)and the backend is build from scratch.Supporting modules such as os,json were used and rendering is done on Flask.Feel free to visit the Github link to download the project",
       "weight": 4327,
 	  "github":"https://github.com/hazra1991/portfolio",
       "photos": [
@@ -14,12 +14,20 @@
       ]
     },
     {
-      "name": "SCP/SNMP Miro-service  ",
+      "name": "SCP/SNMP Miro-service",
       "link_id": "SNMP/SCP_collector",
       "date": "Dec 2019 ",
       "short": "A small micro service providing validating/scp/backing-up/re-formatting the raw snmp received from main collector program",
       "github":"https://github.com/hazra1991/portfolio",
       "description":"A small micro service providing validating/scp/backing-up/re-formatting the raw snmp data received from main collector program. Mainly all the functionality including transfer ,file locking formatting of data is all achieved by pythons in built library and the pandas.Please visit the github link for the source code (NOTE:THIS PROJECT WAS DISCONTINUED HENCE NO FURTHER UPDATE ON TO THE REPOSITORY). No vendor proprietary library were used in code."
+    },
+    {
+      "name": "snmpwalk/ping validator module(using thread workers)",
+      "link_id": "snmpwalkr_ping_validator",
+      "date": "June 2020 ",
+      "short": "A command-line utility for linux server to check the availability of 600+ devices for snmpwalk needed to be given to a Network monitoring tool for discovery",
+      "github":"https://github.com/hazra1991/snmpwalk_Automate",
+      "description":"A command-line utility for linux server to check the availability of 600+ devices for snmpwalk needed to be given to a Network monitoring tool.This utility has been built backward compatible as well for python 2.7*.Threading is widely used in the program and the spun threads count is also controlled form the command line at runtime.The input for the ips and community string (or strings) are completely modular.Built with the python native libraries only"
     }
   ]
     
