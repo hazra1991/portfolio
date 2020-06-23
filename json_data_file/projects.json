@@ -22,13 +22,24 @@
       "description":"A small micro service providing validating/scp/backing-up/re-formatting the raw snmp data received from main collector program. Mainly all the functionality including transfer ,file locking formatting of data is all achieved by pythons in built library and the pandas.Please visit the github link for the source code (NOTE:THIS PROJECT WAS DISCONTINUED HENCE NO FURTHER UPDATE ON TO THE REPOSITORY). No vendor proprietary library were used in code."
     },
     {
-      "name": "snmpwalk/ping validator module(using thread workers)",
+      "name": "snmpwalk/ping validator module(using thread)",
       "link_id": "snmpwalkr_ping_validator",
-      "date": "June 2020 ",
-      "short": "A command-line utility for linux server to check the availability of 600+ devices for snmpwalk needed to be given to a Network monitoring tool for discovery",
+      "date": "April 2020 ",
+      "short": "A command-line utility for linux server to check the availability of devices for snmpwalk needed to be given to a Network monitoring tool for discovery",
       "github":"https://github.com/hazra1991/snmpwalk_Automate",
-      "description":"A command-line utility for linux server to check the availability of 600+ devices for snmpwalk needed to be given to a Network monitoring tool.This utility has been built backward compatible as well for python 2.7*.Threading is widely used in the program and the spun threads count is also controlled form the command line at runtime.The input for the ips and community string (or strings) are completely modular.Built with the python native libraries only"
+      "description":"A command-line utility for linux server to check the availability of devices for snmpwalk needed to be given to a Network monitoring tool.This utility has been built backward compatible as well for python 2.7*.Threading is widely used in the program and the spun threads count is also controlled form the command line at runtime.The input for the IPs and community string (or strings) are completely modular.Built with the python native libraries only"
+    },
+    {
+      "name": "Reverse-shell (server and client)",
+      "link_id": "Reverse-shell",
+      "date": "June 2020 ",
+      "short": "A Hobby project including a interactive command line terminal server that can accept multiple connections from client and can remotely connect and control the client,User can switch between multiple clients",
+      "github":"https://github.com/hazra1991/reverse_shell",
+      "description":"An interactive terminal designed to accept client requests and provide a streaming connection to controle them. The application is built with the help of tcp sockets and extensive use of threading to controle different jobs.A lot of concepts like inheritance and proper use of them has been put to some reale use during the building fo this project.Event driven alerts are been used as well using he signal module. Here just the socket implementation is done wrapping it with specific senarios and error handelling,No charector set or NVT is reinvented or any kind of protocol is implemented.Masures has also been taken for continuous client connection try and closer of any pending or gittered connection.",
+      "photos": [
+        "/home/abhishek/abhishek_files/project/portfolio/static/projects/reverse_shell/reverseshell.png"
+  	]
+    
     }
   ]
-    
 }
