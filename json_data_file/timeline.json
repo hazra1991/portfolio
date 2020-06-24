@@ -2,15 +2,95 @@
   "timeline":
   [
     {
-      "date": "2020",
+      "date": "2017(June) - till date",
       "abouts": [
         {
-          "title":"Work profile",
-          "content":["Working for a bangalore based company ,Mastercom pvt ltd,from past 3 years.It is basically a support vendor for the ","content next line "]
+          "title":"Location",
+          "content":["Bangalore , Karnatak."]
         },
         {
-          "title":"my title 2",
-          "content":["1) contendt 2 contenr t2 ","content next line "]
+          "title":"Work",
+          "content":["Working for a Bangalore based company ,Mastercom pvt ltd,since june 2017.It is basically a support vendor for the network automation,provisioning and monitoring tools","Here, had quite good exposure to the operational challenges faced during the overall maintenance of an application","Got opportunities to interact with a variety or cross functional teams and maintaining a healthy relation with the users","I had also got a chance to work on a controller development for SevOne application in which had written a module for the controller that filters and check the snmp inputs and scp to a list of servers","Had a brief exposer to the Netcool application as well","Apart from technical skills ,have also got exposed and involved in mentoring the team when needed"]
+        },
+        {
+          "title":"About the city",
+          "content":["How not to mention about the weather while speaking about Bangalore. It's the most balanced environment have encountered till now, And as they say it really is an IT hub","And speaking about the food,though it has a bit of southern touch to it but absolutely  you can get any kind of Cuisine here abundantly available"]
+        }
+      ]
+    },
+        {
+      "date": "2017",
+      "abouts": [
+        {
+          "title":"Location",
+          "content":["Mumbai , Maharashtra."]
+        },
+        {
+          "title":"Work",
+          "content":["Worked for Sify Technologies , a service provider which deals with data services and last mile connectivity","Here mostly my job role was to check the connectivity issue for the customers and provide immediate  resolution","Had spent a good time understanding the working of a network operation center and a ticketing system","Got introduced to CRM for the first time","Worked from mid 2016 till mid 2017 in this company and had a wonderful time here"]
+        },
+        {
+          "title":"My thoughts",
+          "content":["Had to relocate to Bangalore in the mid of June due to certain emergency","Within this short association,i enjoyed a lot ","Especially my colleague were interestingly well informed and were very helpful"]
+        }
+      ]
+    },
+    {
+      "date": "2016",
+      "abouts": [
+        {
+          "title":"Location",
+          "content":["Mumbai , Maharashtra."]
+        },
+        {
+          "title":"Work",
+          "content":["Journey  for the dream city is set when i got an offer from synoptics technologies .Here i was appointed as an Sr network engineer but my primary focus was service delivery and network l2 support .","I was working with Airtel on service delivery for one of its big customer .This project included to deliver 5000+ links to the same customer .","i was based at the head office of the client at Navi Mumbai along with PM from Airtel .","Here i also had a wonderful opportunity to interact with other vendor's PMs like TCL and Vodafone.","Was SPOC to the regional heads  through out PAN India and also was responsible for the provisioning issues during the link delivery"]
+        },
+        {
+          "title":"Personal Enhancements ",
+          "content":["Though my daily work keeps me busy in coordinating with different regional heads,I had gathered some knowledge regarding implementation and functioning of MLPS networks ","Implemented a simple windows script that automates the daily connectivity check which was done manually","Learnt working and manging records with Excel and also learnt to implement conditionals and functions to automate certain processes in Excel"]
+        },
+        {
+          "title":"About the city",
+          "content":["Mumbai is the real heart of India.Such a beautiful and energetic city","Despite of being one of the most densely populated city ,its has perfectly maintained its charisma","And as the saying goes ,'to know this city you have to live it', is perfectly demonstrate by its aroma.Completely impossible to judge this place with ust a couple of days visit ","Some of my best experiences with people ,lifestyle and food come form this place","Its poetic ,but this city can leave you lost with constantly reminding that you are not alone "]
+        }
+      ]
+    },
+    {
+      "date": "2015",
+      "abouts": [
+        {
+          "title":"Location",
+          "content":["Jaipur , Rajasthan"]
+        },
+        {
+          "title":"Work",
+          "content":["This year i was appointed as a network engineer at Javi systems and it was the first out of my hometown job location ","Technically at first i was based at Hyderabad and was deployed on field ,where i used to visit sites and check internet connectivity to offices and residents.","Then after a couple of week I was sent to Jaipur at the Reliance Jio NOC","It was completely a technical profile and i got the chance to implement and visually see the facts that i had learnt till now","This was an amazing time where i not only got chance to work with Reliance,but with Ericsson as well,","The profile here was to set the Juniper BTS and and configure them","Mostly the control was taken remotely through field engg or via remote  login ,but visited sites whenever required","Though I was working on junier devices ,i had Opportunities to discuss with the cisco team and learn a lot from them.This was possible as the aggregation layer was completely Cisco devices handled by Cisco team"]
+        },
+        {
+          "title":"About the city",
+          "content":["Jaipur a very peaceful place and a well planned city","Though it does not have a wide scope for IT industries but if someone wants to travel,the this place should be the first in the list.","I had been to places before but this is the first time i got chance to live and experience the richness of a place and it was wonderful","The best part is the food culture of this,If you are Vegetarian then you gona love this place and if you are not ,then i am pretty sure you would turn into one","The culture the environment and the richness of this place will definitely bring that royal flavour in you "]
+        }
+      ]
+    },
+    {
+      "date": "2013 - 2015",
+      "abouts": [
+        {
+          "title":"Location",
+          "content":["Bhubaneswar , Odisha"]
+        },
+        {
+          "title":"Work",
+          "content":["I started my work as an intern and then got a full time job","My Job included helping other students that come for intern and fixing the internal networks if necessary","configuring Vlans,and access policy was also a part of job"]
+        },
+        {
+          "title":"Achievements",
+          "content":["Studied for CCNA and got the certification as well","Studied for CCNP and certified on routing and switching"]
+        },
+        {
+          "title":"About the city",
+          "content":["This is the capital of Odisha and a beautiful and porch place ","I was born in cuttack and they both together are often called as the twin-city","Cuttack was the former capital of Odisha and Bhubaneswar is directly connected via highway 22km apart","I love growing up in this city and the feeling of togetherness is the best part it.","Its a rapidly developing IT hub in india with a lot of big companies currently established "]
         }
       ]
     }
