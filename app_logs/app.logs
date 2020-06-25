@@ -658,3 +658,44 @@ INFO:werkzeug:127.0.0.1 - - [24/Jun/2020 16:12:21] "[37mGET /projects/ HTTP/1.1
 INFO:werkzeug:127.0.0.1 - - [24/Jun/2020 16:12:21] "[33mGET /home/abhishek/abhishek_files/project/portfolio/static/projects/portfolio/homepage.jpg HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [24/Jun/2020 16:12:21] "[33mGET /home/abhishek/abhishek_files/project/portfolio/static/projects/reverse_shell/reverseshell.png HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [24/Jun/2020 16:12:32] "[37mGET /timeline/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-749-075
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:12:46] "[32mGET /projects HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:12:46] "[37mGET /projects/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:12:46] "[37mGET /static/projects/portfolio/homepage.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:12:46] "[36mGET /static/images/projectx.png/ HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:12:46] "[37mGET /static/projects/reverse_shell/reverseshell.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:25:58] "[37mGET /projects/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:22] "[37mGET /timeline/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:22] "[36mGET /static/css/timeline.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:22] "[37mGET /static/css/base.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:28] "[37mGET /static/css/home.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:28] "[37mGET /static/js/home.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:28] "[36mGET /static/images/github.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:28] "[37mGET /static/images/insta.svg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:28] "[36mGET /static/images/linkedin-logo.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:30] "[37mGET /timeline/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:32] "[37mGET /projects/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:32] "[37mGET /static/css/card.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:32] "[37mGET /static/css/chip.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:32] "[37mGET /static/css/projects.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:32] "[37mGET /static/projects/reverse_shell/reverseshell.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:32] "[37mGET /static/projects/portfolio/homepage.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:32] "[37mGET /static/images/projectx.png/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:40] "[37mGET /projects/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:41] "[37mGET /timeline/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:26:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:27:01] "[37mGET /get-cv/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:28:32] "[37mGET /timeline/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:28:32] "[37mGET /static/css/base.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:28:32] "[37mGET /static/css/timeline.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:28:35] "[37mGET /projects/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:28:35] "[37mGET /static/css/chip.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:28:35] "[37mGET /static/css/card.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:28:35] "[37mGET /static/css/projects.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:28:35] "[37mGET /static/projects/portfolio/homepage.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:28:35] "[37mGET /static/images/projectx.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2020 13:28:35] "[37mGET /static/projects/reverse_shell/reverseshell.png HTTP/1.1[0m" 200 -
