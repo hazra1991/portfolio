@@ -22,12 +22,13 @@
       "description":"A small micro service that filters/verifies duplicates in csv snmp data received from main collector program and scp it to a list of servers while backing-up the old data. Mainly all the functionality including transfer ,file locking, formatting of data is all achieved by pythons in built library and the pandas.Please visit the github link for the source code (NOTE:THIS PROJECT WAS DISCONTINUED HENCE NO FURTHER UPDATE ON TO THE REPOSITORY). No vendor proprietary library were used in code."
     },
     {
-      "name": "snmpwalk/ping validator module(using thread)",
+      "name": "Bulk snmp/ping validator module",
       "link_id": "snmpwalkr_ping_validator",
       "date": "April 2020 ",
       "short": "A command-line utility for linux server to check the availability of devices for snmpwalk needed to be given to a Network monitoring tool for discovery",
       "github":"https://github.com/hazra1991/snmpwalk_Automate",
-      "description":"A command-line utility for linux server to check the availability of devices for snmpwalk needed to be given to a Network monitoring tool.This utility has been built backward compatible as well for python 2.7*.Threading is widely used in the program and the spun threads count is also controlled form the command line at runtime.The input for the IPs and community string (or strings) are completely modular.Built with the python native libraries only"
+      "description":"A command-line utility for linux server to check the availability of devices for snmpwalk needed to be given to a Network monitoring tool.This utility has been built backward compatible as well for python 2.7*.Threading is widely used in the program and the spun threads count is also controlled form the command line at runtime.The input for the IPs and community string (or strings) are completely modular.Built with the python native libraries only",
+      "photos":["/static/projects/snmp_ping_valid/validator.jpg"]
     },
     {
       "name": "Reverse-shell (server and client)",
