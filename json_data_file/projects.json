@@ -10,16 +10,30 @@
       "weight": 4327,
 	  "github":"https://github.com/hazra1991/portfolio",
       "photos": [
-        "/static/projects/portfolio/homepage.jpg"
+        "/static/projects/portfolio/homepage.jpg","/static/projects/portfolio/timelien.jpg"
       ]
     },
     {
-      "name": "SCP/SNMP Miro-service",
-      "link_id": "SNMP/SCP_collector",
-      "date": "Dec 2019 ",
-      "short": "A small micro service that filters/verifies duplicates in csv snmp data received from main collector program and scp it to a list of servers while backing-up the old data",
-      "github":"https://github.com/hazra1991/portfolio",
-      "description":"A small micro service that filters/verifies duplicates in csv snmp data received from main collector program and scp it to a list of servers while backing-up the old data. Mainly all the functionality including transfer ,file locking, formatting of data is all achieved by pythons in built library and the pandas.Please visit the github link for the source code (NOTE:THIS PROJECT WAS DISCONTINUED HENCE NO FURTHER UPDATE ON TO THE REPOSITORY). No vendor proprietary library were used in code."
+      "name": "Reverse-shell",
+      "link_id": "Reverse-shell",
+      "date": "June 2020 ",
+      "short": "A Hobby project including a interactive command line terminal server that can accept multiple connections from client and can remotely connect and control the client,User can switch between multiple clients",
+      "github":"https://github.com/hazra1991/reverse_shell",
+      "description":"An interactive terminal designed to accept client requests and provide a streaming connection to control them. The application is built with the help of tcp sockets and extensive use of threading to control different jobs.A lot of concepts like inheritance and proper use of them has been put to some real use during the building of this project.Event driven alerts are been used as well using he signal module. Here just the socket implementation is done wrapping it with specific scenarios and error handling,No character set or NVT is reinvented or any kind of protocol is implemented. Measures has also been taken for continuous client connection try and closer of any pending or broken connection..",
+      "photos": [
+        "/static/projects/reverse_shell/reverseshell.png"
+  	 ] 
+    },
+    {
+      "name": "Message Server",
+      "link_id": "Message-Server",
+      "date": "June 2020 ",
+      "short": "A Learing project that inclues a command line interactive chat client and a chat server using tcp sockets",
+      "github":"https://github.com/hazra1991/Message_server_",
+      "description":"A Learning project that includes an interactive command line interface at client side that provides the option to chat with the registered users as well as send broadcast messages. Features provided to the clients are: - register, login, and change password, send broadcast messages, connect to a registered user and send private messages, chat live with the connected user if connected back. This complete application is built with the TCP transport using sockets and the select system call. Multi-threading is used to run different modules in the server.There are two modules 1.user Activator 2. Message-module .Object serialisation is also done to save the state of the user and transfer messages across.As a Db sqlite3 is used at server end.The server is deployed in AWS and has been tested to work fine.This application is completely object based and is modular  hence can be customised at every point (For optimised performance socket.IO can be used instead of builtin socket module for transport)  ",
+      "photos": [
+        "/static/projects/chat_server_app/image1.jpg","/static/projects/chat_server_app/image2.jpg","/static/projects/chat_server_app/image3.jpg","/static/projects/chat_server_app/image4.jpg"
+  	 ]
     },
     {
       "name": "Bulk snmp/ping validator module",
@@ -31,16 +45,12 @@
       "photos":["/static/projects/snmp_ping_valid/validator.jpg"]
     },
     {
-      "name": "Reverse-shell (server and client)",
-      "link_id": "Reverse-shell",
-      "date": "June 2020 ",
-      "short": "A Hobby project including a interactive command line terminal server that can accept multiple connections from client and can remotely connect and control the client,User can switch between multiple clients",
-      "github":"https://github.com/hazra1991/reverse_shell",
-      "description":"An interactive terminal designed to accept client requests and provide a streaming connection to control them. The application is built with the help of tcp sockets and extensive use of threading to control different jobs.A lot of concepts like inheritance and proper use of them has been put to some real use during the building of this project.Event driven alerts are been used as well using he signal module. Here just the socket implementation is done wrapping it with specific scenarios and error handling,No character set or NVT is reinvented or any kind of protocol is implemented. Measures has also been taken for continuous client connection try and closer of any pending or broken connection..",
-      "photos": [
-        "/static/projects/reverse_shell/reverseshell.png"
-  	]
-    
-    }
+      "name": "SCP/SNMP Miro-service",
+      "link_id": "SNMP/SCP_collector",
+      "date": "Dec 2019 ",
+      "short": "A small micro service that filters/verifies duplicates in csv snmp data received from main collector program and scp it to a list of servers while backing-up the old data",
+      "github":"https://github.com/hazra1991/portfolio",
+      "description":"A small micro service that filters/verifies duplicates in csv snmp data received from main collector program and scp it to a list of servers while backing-up the old data. Mainly all the functionality including transfer ,file locking, formatting of data is all achieved by pythons in built library and the pandas.Please visit the github link for the source code (NOTE:THIS PROJECT WAS DISCONTINUED HENCE NO FURTHER UPDATE ON TO THE REPOSITORY). No vendor proprietary library were used in code."
+    }   
   ]
 }
