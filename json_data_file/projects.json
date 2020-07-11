@@ -36,6 +36,17 @@
   	 ]
     },
     {
+      "name": "E-bill register(Proto)",
+      "link_id": "E-bill_proto",
+      "date": "july 2020 ",
+      "short": "A dummy project to check all the billing details per month",
+      "github":"https://github.com/hazra1991/ebiling_receipt",
+      "description":"A dummy project in which the customer will register and can view the bills received per month. This project is just a prototype and the database and GUI is just used for display (not ready for production). The back end API is created using flask (no extension used).and the front end query is done by requests library and the tkinter library for GUI.The database can be scaled a lot with nosql types .The API Architecture is build on restful.",
+      "photos": [
+        "/static/projects/ebilling/img1.jpg","/static/projects/ebilling/img2.jpg","/static/projects/ebilling/img3.jpg","/static/projects/ebilling/img4.jpg"
+  	 ]
+    },
+    {
       "name": "Bulk snmp/ping validator module",
       "link_id": "snmpwalkr_ping_validator",
       "date": "April 2020 ",
