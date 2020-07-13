@@ -34,7 +34,7 @@ def projects():
 @app.route("/get-cv/")
 def download_cv():
     return send_file(os.path.dirname(os.path.abspath(__file__))
-                     +"/static/Resume/Abhishek_hazra_CV_new.doc",attachment_filename="Abhishek_cv.doc")
+                     +"/static/Resume/Abhishek_hazra_CV-converted.pdf",attachment_filename="Abhishek_cv.doc")
 
 @app.errorhandler(404)
 def page_not_found(e):
